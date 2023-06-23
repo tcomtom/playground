@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div.header {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 20px
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: #85f9ff;
+  border: 1px solid #000;
+  border-radius: 15px;
+}
